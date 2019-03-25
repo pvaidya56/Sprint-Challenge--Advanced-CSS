@@ -1,1 +1,13 @@
 // Mixins Here
+.heading-size() {
+    font-size: 3rem;
+}
+.phone-width() {
+    max-width: 500px;
+    width: 100%;
+}
+//Parametric mixin for button styling 
+.button-layout(@background-color; @color) {
+    background-color: @background-color;
+    color: @color; 
+}
