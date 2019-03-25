@@ -172,6 +172,9 @@ p {
   flex-direction: column;
   background-color: #f6f6f6;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  opacity: 0.7;
 }
 .top-header h1 {
   font-size: 3rem;
@@ -200,6 +203,7 @@ footer {
 }
 .home .intro img {
   border-radius: 10px;
+  padding-top: 86px;
 }
 @media (max-width: 500px) {
   .home .intro img {
@@ -404,7 +408,4 @@ footer {
 }
 .button:active {
   background-color: #f5f5f5;
-}
-#full-name {
-  font-size: 2rem;
 }
